@@ -1,0 +1,371 @@
+@media screen and (max-width: 1280px){
+    #listing{
+        .row{
+            .col-4{
+                width: 32%;
+                &:not(:first-child){
+                    margin-left: 8px;
+                }
+                .listing-image{
+                    width: 104%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    nav{
+        .container-fluid{
+            .navigation{
+                width: 200%;
+                margin-left: -100px;
+            }
+            .maison-logo{
+                padding: 0;
+                h3{
+                    margin-left: -55px;
+                }
+            }
+        }
+    }
+    #partners{
+        .container-fluid{
+            .partners,
+            .partners2,
+            .partners3{
+                width: 90%;
+            }
+        }
+    }
+   #listing{
+       .row{
+           .col-4{
+               height: 100%;
+           }
+       }
+       .btn{
+           margin-right: 120px;
+       }
+   }
+   #testimony{
+       .carousel{
+           margin-left: -300px;
+       }
+   }
+}
+
+@media screen and (max-width: 834px){
+    nav{
+        padding: 0;
+        .container-fluid{
+            grid-template-columns: 9fr 1fr;
+            .maison-logo{
+                width: 400px;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                padding: 0px 65px;
+                .logo{
+                    width: 100px;
+                    height: 100px;
+                    margin-top: -10px;
+                }
+                h3{
+                    margin-top: 20px;
+                    // margin-left: -67%;
+                    color: #818763;
+                    font-family: 'Cookie', cursive;
+                    font-weight: bold;
+                }
+            }
+            .checkbtn{
+                display: block;
+                width: 10%;
+                margin-top: 20px;
+                float: right;
+            }
+            ul{
+                display: block;
+                width: 100%;
+                height: auto;
+                background-color: #edeee9;
+                opacity: 0.9;
+                position: fixed;
+                top: 65px;
+                right: -100%;
+                padding: 5px;
+                transition: .4s ease-in-out;
+                li{
+                    display: block;
+                    padding: 10px;
+                    width: 100%;
+                    border-radius: 50px;
+                    overflow: visible;
+                    &:hover{
+                        background-color: #818763;
+                    }
+                    a{
+                        &:hover{
+                            background: transparent;
+                        }
+                    }
+                }
+                
+            }
+            .button{
+                margin-left: 0;
+            }
+            #check{
+                &:checked ~ ul{
+                    right: 0;
+                }
+            }
+        }
+    }
+    #Home{
+        .row{
+            .col-6{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .home-image2{
+                    display: block;
+                }
+                .find-home{
+                    width: 70%;
+                    margin-top: 600px;
+                    form{
+                        grid-template-columns: 1fr 1fr;
+                        .form-control{
+                            width: 80%;
+                            margin-top: 10px;
+                            &:not(:first-child){
+                                margin-left: 0;
+                            }
+                        }
+                        .btn{
+                            height: 80%;
+                            width: 80%;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #about-us{
+        .row{
+            .col-6{
+                width: 100%;
+                h4{
+                    margin-top: 0;
+                }
+                .about-image2{
+                    display: block;
+                    margin: 10px 0;
+                }
+            }
+        }
+    }
+    #listing{
+        .row{
+            .col-4{
+                width: 45%;
+                margin-top: 30px;
+                &:nth-child(2){
+                    margin-left: 30px;
+                }
+                &:nth-child(3){
+                    margin-top: 30px;
+                    margin-left: 0;
+                }
+            }
+        }
+        .btn{
+            float: left;
+        }
+    }
+    #newsletter{
+        padding-left: 90px;
+        .newsletter{
+            padding: 30px;
+        }
+    }
+    footer{
+        padding: 30px;
+        .footer-content{
+            .contact-us{
+                padding-right: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px){
+    #testimony{
+        padding-left: 50px;
+        .carousel{
+            .carousel-inner{
+                width: 67%;
+                .carousel-item{
+                    .testimony{
+                        width: 100%;
+                        padding: 20px 300px 20px 20px;
+                    }
+                    .image{
+                        .testimonial-image{
+                            width: 200px;
+                            height: 150px;
+                            margin-top: -360px;
+                        }
+                    }
+                    .btn{
+                        margin-left: 180px;
+                    }
+                }
+            }
+        }
+    }
+    #Home{
+        .row{
+            padding-left: 50px;
+        }
+    }
+    #listing{
+        .row{
+            .col-4{
+                width: 100%;
+                &:nth-child(2){
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+    footer{
+        .footer-content{
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+}
+
+@media screen and (max-width: 414px){
+    nav{
+        .container-fluid{
+            grid-template-columns: 1fr 2fr;
+            width: 900px;
+            .maison-logo{
+                padding: 0;
+                width: 50%;
+                h3{
+                    margin-left: -33%;
+                }
+            }
+            .checkbtn{
+                margin-left: 6%;
+            }
+        }
+    }
+    #partners{
+        .container-fluid{
+            grid-template-columns: repeat(3, 1fr);
+            height: 10%;
+            padding-bottom: 0 !important;
+        }
+    }
+    #testimony{
+        padding-left: 50px;
+        .carousel{
+            .carousel-inner{
+                width: 47%;
+               overflow: visible;
+                .carousel-item{
+                    .testimony{
+                        width: 100%;
+                        margin-left: -10%;
+                        padding: 20px 20px 20px 20px;
+                    }
+                    .image{
+                        .testimonial-image{
+                            width: 150px;
+                            height: 150px;
+                            border-radius: 50%;
+                            margin-top: -280px;
+                            margin-left: 150px;
+                        }
+                    }
+                    .btn{
+                        margin-left: 180px;
+                    }
+                }
+            }
+        }
+    }
+    #about-us{
+       .row{
+           padding-left: 10px;
+       }
+    }
+    #listing{
+        margin-top: 10%;
+        padding-left: 50px;
+    }
+    #newsletter{
+        padding-left: 0;
+        .newsletter{
+            width: 100%;
+            form{
+                .input-group{
+                    .btn{
+
+                        width: 100px;
+                    }
+                }
+            }
+        }
+    }
+    #Home{
+        margin-top: 0;
+        .row{
+            .col-6{
+                .home-image2{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 375px){
+    #testimony{
+        .carousel{
+            .carousel-inner{
+                .carousel-item{
+                    .image{
+                        .testimonial-image{
+                            width: 50%;
+                            // height: 100%;
+                            border-radius: 50%;
+                        }
+                    }
+                    .btn{
+                        margin-left: 0;
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        .footer-content{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    nav{
+        .container-fluid{
+            .checkbtn{
+                margin-left: -1%;
+            }
+        }
+    }
+}

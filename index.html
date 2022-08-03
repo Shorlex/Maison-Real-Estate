@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maison Real Estate</title>
+    <link rel = "icon" type = "image/webp" href = "logo2_prev_ui.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container-fluid fixed-top">
+            <div class="maison-logo">
+                <img src="logo2_prev_ui.png" alt="main-logo" class="logo">
+                <h3>Maison</h3>
+            </div>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i onclick="myFunction(this)" class="fas fa-bars"></i>
+            </label>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Agents</a></li>
+                    <div class="button">
+                        <button class="btn">Contact Us</button>
+                    </div>
+                </ul>
+            
+        </div>
+    </nav>
+    <section id="Home">
+        <div class="row pt-5">
+            <div class="col-6">
+                <h1><span>Home</span> is where your <span>Habits</span> have a <span>Habitat</span>.</h1>
+                <p>Home is where love resides, memories are created, friends and family belong together and laughter
+                    never ends. We strive to provide our customers with the comfort of home. Contact us today.
+                </p>
+                <img src="home-image.jpg" alt="home" class="home-image2">
+                <div class="find-home bg-light opacity-75">
+                    <h3>Find Your Home</h3>
+                    <form action="#">
+                        <select id="location" name="location" class="form-control">
+                            <option value="volvo">Location</option>
+                            <option value="saab">Lagos</option>
+                            <option value="fiat">Abuja</option>
+                            <option value="audi">Port Harcourt</option>
+                        </select>
+                        <select id="location" name="location" class="form-control">
+                            <option value="volvo">Category</option>
+                            <option value="saab">Bungalow</option>
+                            <option value="fiat">Duplex</option>
+                            <option value="audi">Detached</option>
+                            <option value="audi">Semi-Detached</option>
+                        </select>
+                        <select id="location" name="location" class="form-control">
+                            <option value="volvo">Property Type</option>
+                            <option value="saab">Residential</option>
+                            <option value="fiat">Industrial</option>
+                            <option value="audi">Mixed use</option>
+                            <option value="audi">Commercial</option>
+                        </select>
+                        <button class="btn">Search</button>
+                    </form>
+                </div>
+                <div class="rating">
+                    <div class="premium">
+                        <h3 id="count-up" data-count="60" data-unit="K"></h3>
+                        <p>Premium Product</p>
+                    </div>
+                    <div class="customer">
+                        <h3 id="count-up2" data-count="100" data-unit="K"></h3>
+                        <p>Happy Customer</p>
+                    </div>
+                    <div class="award">
+                        <h3 id="count-up3" data-count="30" data-unit="K"></h3>
+                        <p>Award Winning</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="home-image"></div>
+            </div>
+        </div>
+    </section>
+    <section id="partners">
+        <div class="container-fluid mt-5">
+            <img src="image_prev_ui (1).png" alt="" class="partners">
+            <img src="image_prev_ui (7).png" alt="" class="partners">
+            <img src="image_prev_ui (2).png" alt="" class="partners3">
+            <img src="image_prev_ui (6).png" alt="" class="partners3">
+            <img src="image_prev_ui (5).png" alt="" class="partners2">
+        </div>
+    </section>
+    <section id="about-us">
+        <div class="row pt-5">
+            <div class="col-6 pt-5">
+                <div class="about-image"></div>
+            </div>
+            <div class="col-6 ps-5">
+                <h4><i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus dash"></i>About Us</h4>
+                <h2>Providing you with conmfort a home has to offer easily at the comfort of your fingertip.</h2>
+                <img src="about-us.jpg" alt="" class="about-image2">
+                <p>Find that comfortable apartment with us at maison, read about home available for sales or rentals across Africa, communicate with our trusted members nd know that you are backed by one of the best and trusted real estate management. We take out the hassle out of buying and renting homes as we believe in building relationships with buyers, sellers and investors.</p>
+                <p>We are that real estate plartfrom that hepls you find the home of your dreams at affordable rates and easily. there are several reasons why you should choose us as we take pride in satisfying our customers by providing the best services and amenities. We are also available on smartphines as mobile applications and plartforms.</p>
+            </div>
+        </div>
+    </section>
+    <section id="listing">
+        <h2>New listings</h2>
+        <h4><i class="fa-solid fa-minus"></i><i class="fa-solid fa-minus dash"></i>Best Choice</h4>
+        <div class="row">
+            <div class="col-4">
+                <img src="duplex-1.jpg" alt="" class="listing-image">
+                <p>4 beedroom detached duplex<br><i class="fa-solid fa-location-dot"></i> No 10, Agbado Street, Lagos, Nigeria<br><i class="fa-solid fa-phone"></i> +2347068508279<br><i class="fa-solid fa-naira-sign"></i>2.5 Million</p>
+            </div>
+            <div class="col-4">
+                <img src="duplex-2.jpg" alt="" class="listing-image">
+                <p>4 beedroom detached duplex<br><i class="fa-solid fa-location-dot"></i> No 10, Agbado Street, Lagos, Nigeria<br><i class="fa-solid fa-phone"></i> +2347068508279<br><i class="fa-solid fa-naira-sign"></i>2.5 Million</p>
+            </div>
+            <div class="col-4">
+                <img src="duplex-3.jpg" alt="" class="listing-image">
+                <p>4 beedroom detached duplex<br><i class="fa-solid fa-location-dot"></i> No 10, Agbado Street, Lagos, Nigeria<br><i class="fa-solid fa-phone"></i> +2347068508279<br><i class="fa-solid fa-naira-sign"></i>2.5 Million</p>
+            </div>
+        </div>
+        <button class="btn">View all listings</button>
+    </section>
+    <section id="testimony">
+        <h2>Words on the Street</h2>
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner" style="margin: 300px;">
+                <div class="carousel-item active">
+                  <div class="testimony">
+                      <p>Maison was the best thing that ever happened to me while i was relocating. They made my search for home seeemless, enjoyable and trustworthy as possible and I got the best home possible in Nigeria at an affordable price. I highly recommend them.</p>
+                      <p>
+                          Alan Smith<br>
+                          United Kingdom
+                      </p>
+                  </div>
+                  <button class="btn">Read More</button>
+                  <div class="image">
+                      <img src="testimony-1.jpg" alt="testimony" class="testimonial-image">
+                  </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="testimony">
+                        <p>Maison was the nicest thing that occurred to me throughout my relocation. They made my house hunt as easy, fun, and trustworthy as possible, and I ended up with the greatest property in Nigeria at an inexpensive price. They come highly recommended by me.</p>
+                        <p>
+                            Ogunjide Babafemi<br>
+                            Nigeria
+                        </p>
+                    </div>
+                    <button class="btn">Read More</button>
+                    <div class="image">
+                        <img src="testimony-2.jpg" alt="testimony" class="testimonial-image">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="testimony">
+                        <p>
+                            Maison was the nicest thing that ever occurred to me throughout my relocation. They made my house hunt as easy, fun, and trustworthy as possible, and I received the greatest property in Nigeria at an inexpensive price. They come highly recommended from me.
+                        </p>
+                        <p>
+                            Kwame Daniella<br>
+                            Ghana
+                        </p>
+                    </div>
+                    <button class="btn">Read More</button>
+                    <div class="image">
+                        <img src="testimony-3.jpg" alt="testimony" class="testimonial-image">
+                    </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <section id="newsletter">
+        <div class="newsletter ">
+            <h2>
+                Subscribe to our Newsletter
+            </h2>
+            <p>
+                Subscribe with your email and loads of mouth-watering offers would be sent to you on a daily basis.
+            </p>
+            <form action="#">
+                <div class="input-group">
+                    <input type="email" class="form-control" placeholder="Enter your email here">
+                    <button class="btn">Subscribe</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="logo">
+                <div class="maison-logo">
+                    <img src="logo2_prev_ui.png" alt="main-logo" class="logo">
+                    <h3>Maison</h3>
+                </div>
+            </div>
+            <div class="maison">
+                <h5>Maison</h5>
+                <ul>
+                    <li>Why Maison?</li>
+                    <li>For Sales</li>
+                    <li>For Rentals</li>
+                </ul>
+            </div>
+            <div class="legal">
+                <h5>Legal</h5>
+                <ul>
+                    <li>Terms and Condtions</li>
+                    <li>Privacy Policy</li>
+                    <li>Cookies</li>
+                </ul>
+            </div>
+            <div class="contact-us">
+                <h5>Contact Us</h5>
+                <ul>
+                    <li>maison@hotmail.com</li>
+                    <li>+234706850827</li>
+                </ul>
+            </div>
+            <div class="resources">
+                <h5>Resources</h5>
+                <ul>
+                    <li>Become an Agent</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+            <div class="follow-us">
+                <h5>Follow Us</h5>
+                <ul>
+                    <li><i class="fa-brands fa-twitter"></i> Twitter</li>
+                    <li><i class="fa-brands fa-square-instagram"></i> Instagram</li>
+                    <li><i class="fa-brands fa-facebook"></i> Facebook</li>
+                    <li><i class="fa-brands fa-linkedin"></i> LinkedIn</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="copy">
+            <p>
+                &copy 2022 Maison Real Estate
+            </p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+    
+
+</body>
+
+</html>
